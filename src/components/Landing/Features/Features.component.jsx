@@ -34,7 +34,7 @@ const Features = () => {
               </li>
               <li>
                 Has two independent output channels per board. Multiple boards
-                can be stacked to generate up to 256 channels.
+                can be stacked to generate up to 222 channels.
               </li>
               <li>
                 Onboard opto-isolators separate digital and analog signals
@@ -70,7 +70,13 @@ const Features = () => {
       </Accordion>
       <br />
       <div className="img-container">
-        <img src={img2} alt="" />
+        <img
+          src={img2}
+          onClick={() =>
+            window.open(`${img2}`, "_blank", "noopener, noreferrer")
+          }
+          alt=""
+        />
       </div>
     </>
   );

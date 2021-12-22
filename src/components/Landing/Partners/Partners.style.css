@@ -1,0 +1,21 @@
+.partners-box {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.partners-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-img > img {
+  width: 50%;
+  /* height: 186px; */
+  /* transform: scale(0.6); */
+}
+
+/* .img2 {
+  width: 200px;
+} */
